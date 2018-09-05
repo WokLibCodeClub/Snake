@@ -1,3 +1,1 @@
 The first part of the project is to create a window which displays the letter S. Copy code from the letter A project so that the letter S is moved around the screen using the arrow keys and can't go beyond the limits of the window.
-
-This has been changed.
