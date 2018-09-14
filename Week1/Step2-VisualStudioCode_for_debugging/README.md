@@ -10,6 +10,7 @@ In this file put a single Python print statement, which includes some text insid
 ```
 print('Lovely weather')
 ```
+DON'T FORGET TO SAVE YOUR CODE BEFORE GOING FURTHER.
 
 Now click the Debug symbol
 
@@ -30,4 +31,13 @@ After you click Add configuration there may be a pause while the Output pane at 
 Now click the tab for the file print_test.py so you can see your code. Then click the down arrow next to Python: Current File (Integrated Terminal) and from the list choose the option Python: Current File (External Terminal) as in the next picture.
 
 ![alt text](VSC05.png "External Terminal")
+
+You're now ready to test your code. To run your code click on the GREEN arrow next to the word DEBUG. This should open a new window showing the result of your code.
+
+![alt text](VSC06.png "Debug")
+
+This one line of code has produced the output Lovely weather in the new window. Press any key to close this window. We are now set to discover Python lists, but first it's worth exploring some more features of the print statement.
+
+[Go to step 3](../Step3-Using_print)
+
 
