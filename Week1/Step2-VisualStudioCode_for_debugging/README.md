@@ -15,4 +15,19 @@ Now click the Debug symbol
 
 ![alt text](VSC01.png "Debug icon")
 
-After a pause, which might involve downloading some files, you will see this:
+At this point you might see the text in the bar along the bottom of the Visual Studio Code window turn yellow and show a message which says Select Python Environment. If so, follow the three steps on this picture. If the text along the bottom bar already says something like Python 3.6 (64-bit) then you can skip this step.
+
+![alt text](VSC02.png "Python environment")
+
+Look for the words No Configurations at the top left of the Visual Studio Code window and follow the steps in the next picture.
+
+![alt text](VSC03.png "Add configuration")
+
+After you click Add configuration there may be a pause while the Output pane at the bottom shows some packages being downloaded. Finally Visual Studio Code will open a new file called launch.json as in the next picture.
+
+![alt text](VSC04.png "launch.json")
+
+Now click the tab for the file print_test.py so you can see your code. Then click the down arrow next to Python: Current File (Integrated Terminal) and from the list choose the option Python: Current File (External Terminal) as in the next picture.
+
+![alt text](VSC05.png "External Terminal")
+
