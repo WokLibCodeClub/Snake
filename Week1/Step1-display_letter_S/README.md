@@ -7,4 +7,4 @@ Inside the Snake folder make a Python programme called snake1.py which is based 
 pgzrun snake1.py
 ```
 
-[Go to step 2](..\Step2-VisualStudioCode_for_debugging)
+[Go to step 2](../Step2-VisualStudioCode_for_debugging)
