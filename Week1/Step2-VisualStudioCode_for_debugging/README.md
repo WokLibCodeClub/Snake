@@ -19,7 +19,7 @@ At this point you might see the text in the bar along the bottom of the Visual S
 
 ![alt text](VSC02.png "Python environment")
 
-Look for the words No Configurations at the top left of the Visual Studio Code window and follow the steps in the next picture.
+Now look for the words No Configurations at the top left of the Visual Studio Code window and follow the steps in the next picture.
 
 ![alt text](VSC03.png "Add configuration")
 
