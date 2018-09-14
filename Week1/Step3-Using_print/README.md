@@ -1,12 +1,8 @@
 Joining items with `print`
 --------------------------
-We can use `print` to make a long bit of text from two shorter bits of text by using either the plus sign or by separating the items by a comma. For example if you change your code to
+We can use `print` to make a long bit of text from two shorter bits of text by using a plus sign. For example if you change your code to
 ```
 print('Lovely weather' + 'for the time of year')
-```
-**OR**
-```
-print('Lovely weather', 'for the time of year')
 ```
 then save it and run it you will see a combined statement. But there's something not right about the output. Can you spot what it is? 
 
@@ -43,7 +39,11 @@ print('My age is ' + str(21))
 ```
 and if you save and run this code it will not produce an error. (Make sure your code has two brackets after the number 21.)
 
-However, if you use the comma option to separate items in a `print` function it will work and not give an error!
+However, there is another way of joining items in a `print` function, which is to separate the items with a comma - for example 
+```
+print('Lovely weather', 'for the time of year')
+```
+If you use the comma option to separate items in a `print` function you *can* combine text and numbers and it will not give an error!
 ```
 print('My age is', 21)
 ```
