@@ -55,5 +55,5 @@ Using `print` with variables
 a = 'Horatio'
 print('Good morning, ' + a)
 ```
-`a` is a variable. Because we defined `a` using quotes Python knows this is a *string* variable, so we can use a plus sign inside `print` and it won't give an error. If we made `a` a numerical variable, for example by changing the first line of code to `a = 21`, then the print function would give an error.
+`a` is a variable. Because we defined `a` using quotes Python knows this is a *string* variable, so we can use a plus sign inside `print` and it won't give an error. If we made `a` an *integer* variable, for example by changing the first line of code to `a = 21`, then the print function would give an error.
 
