@@ -6,7 +6,7 @@ Now go to File>New File. This will open a new tab, probably called Untitled-1.
 
 Now use File>Save As and give this a name, for example, print_test.py. MAKE SURE in the box labelled Save as type: you scroll down the list to type Python.
 
-In this file put a single Python print statement, which includes some text inside quotes. In this example the statement is 
+In this file put a single Python print function, which includes some text inside quotes. In this example the code is 
 ```
 print('Lovely weather')
 ```
@@ -36,7 +36,7 @@ You're now ready to test your code. To run your code click on the GREEN arrow ne
 
 ![alt text](VSC06.png "Debug")
 
-This one line of code has produced the output Lovely weather in the new window. Press any key to close this window. We are now set to discover Python lists, but first it's worth exploring some more features of the print statement.
+This one line of code has produced the output Lovely weather in the new window. Press any key to close this window. We are now set to discover Python lists, but first it's worth exploring some more features of the print function.
 
 [Go to step 3](../Step3-Using_print)
 
