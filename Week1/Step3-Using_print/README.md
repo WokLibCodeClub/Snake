@@ -1,6 +1,12 @@
-We can use `print` to make a long bit of text from two shorter bits of text by using the plus sign. For example if you change your code to
+Joining items with `print`
+--------------------------
+We can use `print` to make a long bit of text from two shorter bits of text by using either the plus sign or by separating the items by a comma. For example if you change your code to
 ```
 print('Lovely weather' + 'for the time of year')
+```
+**OR**
+```
+print('Lovely weather', 'for the time of year')
 ```
 then save it and run it you will see a combined statement. But there's something not right about the output. Can you spot what it is? 
 
@@ -8,6 +14,8 @@ Challenge
 =========
 How would you make a small change to the code so the output would look right?
 
+Printing numbers
+----------------
 The code above shows how to output some text. But `print` can also be used to print numbers. Change your code to
 ```
 print(21)
@@ -18,7 +26,7 @@ and Save it. Now run it by clicking the green arrow.
 ```
 print(3+4*5)
 ```
-But beware! One thing you 
+But beware! If you are using a plus sign to join items one thing you 
 *can't* do with `print` is mix text and numbers in one statement. Change your code to
 ```
 print('My age is ' + 21)
@@ -35,5 +43,9 @@ print('My age is ' + str(21))
 ```
 and if you save and run this code it will not produce an error. (Make sure your code has two brackets after the number 21.)
 
+However, if you use the comma option to separate items in a `print` function it will work and not give an error!
+```
+print('My age is ', 21)
 
+`print` can also be used to print variables.
 
