@@ -81,7 +81,6 @@ Use what you know about lists, loops, print combining text and numbers and calcu
 range function
 --------------
 
-
 It's easy to type a number list if you only want a few numbers in it, but if you wanted a number list which went from 0 up to 100 or more it would be very tedious to type out all the numbers by hand. Luckily Python has a command which will generate an automatic number list - it's called the `range` function. 
 
 There are three ways you can use the range function - and the best way to find out about them is to try them out.
@@ -107,5 +106,43 @@ Here we have put two numbers, separated by a comma, in brackets after range, wit
 
 `numberlist = range(4,21,3)`
 
-Here we have put **three** numbers, separated by commas, in brackets after range. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this command. 
+Here we have put **three** numbers, separated by commas, in brackets after range. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this command. What is the meaning of the third number?
+
+If you've done all this you've probably worked out that the first number in brackets is the starting number for the list and the last number is the size of the interval between the numbers in the list. The second number sets how long the list is, but it's more complicated than simply the last number in the list. The way Python uses the second number is to stop the list before the next number in the list would be the same as or beyond the second number. It's quite difficult to explain simply, the best thing is to experiment until you get the hang of it.
+
+In the third method of the range function the third number can be negative - to give a list where the numbers get smaller.
+
+Loop with range function
+------------------------
+
+One of the most common ways to use the `range` function is in a `for` loop. So instead of writing
+```
+for n in [1,2,3,4,5]:
+    print(n)
+```
+
+where the list is typed out, we can now use a range function in place of the list and write:
+```
+for n in range(1,6):
+    print(n)
+```
+
+Challenge
+=========
+
+Write code with a `for` loop, and use `range()` with three numbers in the brackets to produce this output:
+
+10  
+9  
+8  
+7  
+6  
+5  
+4  
+3  
+2  
+1  
+0  
+Lift off!
+
  
