@@ -50,9 +50,11 @@ In this example `n` is the index variable, and `[1,2,3,4,5]` is the list which c
 * Python goes back to the top of the loop and sets the index variable to the value of the second item in the list, then carries out the indented instructions.
 * Python keeps going back to the top of the loop, setting the index variable to the value of the next item in the list and carrying out the indented instructions until it has got to the end of the list and used up all the items. Then it stops, or goes on to carry out more instructions if there are any. (In this example there aren't any more instructions.)
 
+Challenge
+=========
 
 
-Challenge - write a programme to print out a 3 times table using for and a list.
+ - write a programme to print out a 3 times table using for and a list.
 
 It's easy to type a number list if you only want a few numbers in it, but if you wanted a number list which went from 0 up to 100 or more it would be very tedious to type out all the numbers by hand. Luckily Python has a command which will generate an automatic number list - it's called the range function. 
 
