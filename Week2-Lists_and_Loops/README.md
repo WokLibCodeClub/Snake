@@ -82,21 +82,22 @@ range function
 --------------
 
 
-It's easy to type a number list if you only want a few numbers in it, but if you wanted a number list which went from 0 up to 100 or more it would be very tedious to type out all the numbers by hand. Luckily Python has a command which will generate an automatic number list - it's called the range function. 
+It's easy to type a number list if you only want a few numbers in it, but if you wanted a number list which went from 0 up to 100 or more it would be very tedious to type out all the numbers by hand. Luckily Python has a command which will generate an automatic number list - it's called the `range` function. 
 
 There are three ways you can use the range function - and the best way to find out about them is to try them out.
 
-range function - first method:
+* range function - first method:
 
+`numberlist = range(9)`
+
+To see what numbers are in this list we could try `print(numberlist)` but unfortunately this just gives us `range(9)`, in other words exactly what we put in the code. The way to get Python to print the actual numbers in the list is using another Python function called `list()`.
+```
 numberlist = range(9)
-
-Here range will generate an automatic number list, but to see what this list looks like we have to use print but with an extra command. If we type print(numberlist) Python will simply print range(9) which isn't very helpful. If we want to see the numbers which are in the automatically generated list we need to use
-
 print(list(numberlist))
-
+```
 If you run the code it will show the numbers in the list. What do you notice about these numbers? How would you use range to produce a list which went from 0 to 17? Try it and see if it works!
 
-range function - second method:
+* range function - second method:
 
 numberlist = range(2,11)
 
