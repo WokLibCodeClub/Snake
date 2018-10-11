@@ -15,7 +15,7 @@ Python also has a special type of variable is called a *List* variable, which co
 ```
 myfruitslist = ['apple', 'orange', 'pear', 'strawberry', 'banana']
 ```
-You can use the Python print function to see what the list variable contains:
+You can use the Python `print` function to see what the list variable contains:
 ```
 myfruitslist = ['apple', 'orange', 'pear', 'strawberry', 'banana']
 print(myfruitslist)
@@ -50,12 +50,12 @@ In this example `n` is the index variable, and `[1,2,3,4,5]` is the list which c
 * Python goes back to the top of the loop and sets the index variable to the value of the second item in the list, then carries out the indented instructions.
 * Python keeps going back to the top of the loop, setting the index variable to the value of the next item in the list and carrying out the indented instructions until it has got to the end of the list and used up all the items. Then it stops, or goes on to carry out more instructions if there are any. (In this example there aren't any more instructions.)
 
-If you run the code in the `for` loop above it will print all the numbers in the list, each one on a different line. In Week 1 we saw that you could use print to print the result of a calculation. You can do the same thing in a loop. If you change your code to
+If you run the code in the `for` loop above it will print all the numbers in the list, each one on a different line. In Week 1 we saw that you could use `print` to print the result of a calculation. You can do the same thing in a loop. If you change your code to
 ```
 for n in [1,2,3,4,5]:
     print(n + 2)
 ```
-and run it by clicking the green arrow, it will print each of the numbers in the list but with 2 added. In Week 1 we also saw how you could combine text and numbers in a print statement, but you had to change the numbers to text first using the str() function. If you change your code to
+and run it by clicking the green arrow, it will print each of the numbers in the list but with 2 added. In Week 1 we also saw how you could combine text and numbers in a `print` statement, but you had to change the numbers to text first using the `str()` function. If you change your code to
 ```
 for n in [1,2,3,4,5]:
     print('Number plus two is ' + str(n + 2))
@@ -100,17 +100,17 @@ If you run the code it will show the numbers in the list. What do you notice abo
 
 `numberlist = range(2,11)`
 
-Here we have put two numbers, separated by a comma, in brackets after range, with the first number *smaller* than the second. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this version of the range function. How would you use range to produce a list of numbers from 4 to 15? Try it and see if it works! What happens if the first number is not smaller than the second?
+Here we have put two numbers, separated by a comma, in brackets after `range`, with the first number *smaller* than the second. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this version of the `range` function. How would you use `range` to produce a list of numbers from 4 to 15? Try it and see if it works! What happens if the first number is not smaller than the second?
  
 ### range function - third method:
 
 `numberlist = range(4,21,3)`
 
-Here we have put **three** numbers, separated by commas, in brackets after range. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this command. What is the meaning of the third number?
+Here we have put **three** numbers, separated by commas, in brackets after `range`. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this command. What is the meaning of the third number?
 
 If you've done all this you've probably worked out that the first number in brackets is the starting number for the list and the last number is the size of the interval between the numbers in the list. The second number sets how long the list is, but it's more complicated than simply the last number in the list. The way Python uses the second number is to stop the list before the next number in the list would be the same as or beyond the second number. It's quite difficult to explain simply, the best thing is to experiment until you get the hang of it.
 
-In the third method of the range function the third number can be negative - to give a list where the numbers get smaller.
+In the third method of the `range` function the third number can be negative - to give a list where the numbers get smaller.
 
 Loop with range function
 ------------------------
