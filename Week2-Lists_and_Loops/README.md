@@ -86,7 +86,7 @@ It's easy to type a number list if you only want a few numbers in it, but if you
 
 There are three ways you can use the range function - and the best way to find out about them is to try them out.
 
-* range function - first method:
+### range function - first method:
 
 `numberlist = range(9)`
 
@@ -97,7 +97,7 @@ print(list(numberlist))
 ```
 If you run the code it will show the numbers in the list. What do you notice about these numbers? How would you use range to produce a list which went from 0 to 17? Try it and see if it works!
 
-* range function - second method:
+### range function - second method:
 
 numberlist = range(2,11)
 
