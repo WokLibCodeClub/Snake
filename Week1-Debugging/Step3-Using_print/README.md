@@ -27,13 +27,13 @@ But beware! If you are using a plus sign to join items one thing you
 ```
 print('My age is ' + 21)
 ```
-then save it and run it. Notice the error message.
+then save it and run it. Notice that the small black window immediately fills up with text, which is what happens when there is an error in the code. In this case the key words are in the second last line which says "TypeError: must be str, not int".
 
 ![alt text](TypeError.png "Type Error")
 
-To exit from this error screen click on the red square at the top centre of the Visual Studio Code window.
+To exit from this error, press any key.
 
-In the `print` function the part in quotes is text, known in Python as data type *string* but the other part is a number, in fact a whole number, or data type *integer*. We can avoid the error by changing the number from type *integer* to type *string*. The Python code for doing this is `str(21)` so the revised code will be
+In your code the `print` function has a part in quotes, which is text, known in Python as data type *string* but the other part is a number, in fact a whole number, or data type *integer*. The `print` function can't mix these two. We can avoid the error by changing the number from type *integer* to type *string*. The Python way to do this is to place the number to be converted inside brackets and put the letters str before the brackets. To convert the number 21 to type string we would use `str(21)` The revised code will be
 ```
 print('My age is ' + str(21))
 ```
