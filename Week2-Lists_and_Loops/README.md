@@ -20,7 +20,7 @@ You can use the Python print function to see what the list variable contains:
 myfruitslist = ['apple', 'orange', 'pear', 'strawberry', 'banana']
 print(myfruitslist)
 ```
-You can also look at individual items in the list by using the list variable name, followed by a number in square brackets. Try this code, but put a number inside the square brackets instead of the question mark to print the *third* item in the list:
+You can also look at individual items in the list by using the list variable name, followed by a number in square brackets. Try this code, but **put a number inside the square brackets instead of the question mark** to print the *third* item in the list:
 ```
 myfruitslist = ['apple', 'orange', 'pear', 'strawberry', 'banana']
 print(myfruitslist[?])
@@ -33,7 +33,9 @@ Loops
 -----
 
 If you've done coding with Scratch you may know about the Repeat block, which is used when you want to repeat a bit of code a fixed number of  times.
+
 ![alt text](ScratchRepeat.png "Scratch Repeat block")
+
 In Python, the way to repeat some code, when you know exactly how many times you want to repeat it, is with a `for` loop. A `for` loop uses a *variable* as an index, and a *List* to control how many times the loop repeats.
 
 Here is a typical Python `for` loop:
@@ -44,16 +46,11 @@ for n in [1,2,3,4,5]:
 
 In this example `n` is the index variable, and `[1,2,3,4,5]` is the list which controls the repetition. Notice also that there is a colon at the end of the line which begins with `for` and that all the lines which you want to be repeated are *INDENTED*. Here's how it works:
 
+* The first time through the loop Python sets the index variable to the value of the first item in the list, so in this example it sets `n = 1`. Python then carries out all the instructions which are indented - in this example it will print the number 1.
+* Python goes back to the top of the loop and sets the index variable to the value of the second item in the list, then carries out the indented instructions.
+* Python keeps going back to the top of the loop, setting the index variable to the value of the next item in the list and carrying out the indented instructions until it has got to the end of the list and used up all the items. Then it stops, or goes on to carry out more instructions if there are any. (In this example there aren't any more instructions.)
 
-Make list of fruits. This is a list of text items because of the quotes, which can be single or double
 
-Print item from list - note numbering starts at 0
-
-Using a loop with a list
-
-A list of numbers
-
-Combine text and numbers in an output print.
 
 Challenge - write a programme to print out a 3 times table using for and a list.
 
