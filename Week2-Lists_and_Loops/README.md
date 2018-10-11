@@ -1,4 +1,4 @@
-To complete the Snake project we need to learn about lists.
+To continue with the Snake project we need to learn about lists.
 
 Lists
 -----
@@ -11,7 +11,7 @@ This is a list of text items - you can tell they are text items because each of 
 ```
 [1,2,3,4,5,6,7,8,9,10]
 ```
-Python also has a special type of variable is called a *List* variable, which contains a list. To make a List variable you simply set the variable equal to a list. Here is the code to make a list variable called myfruitslist which contains a list of fruits:
+Python also has a special type of variable is called a *List* variable, which contains a list. To make a List variable you simply set the variable equal to a list. Here is the code to make a list variable called `myfruitslist` which contains a list of fruits:
 ```
 myfruitslist = ['apple', 'orange', 'pear', 'strawberry', 'banana']
 ```
@@ -20,7 +20,12 @@ You can use the Python print function to see what the list variable contains:
 myfruitslist = ['apple', 'orange', 'pear', 'strawberry', 'banana']
 print(myfruitslist)
 ```
-You can also look at individual items in the list by using the list variable name, followed by a number in square brackets.
+You can also look at individual items in the list by using the list variable name, followed by a number in square brackets. Try this code, but put a number inside the square brackets instead of the question mark to print the *third* item in the list:
+```
+myfruitslist = ['apple', 'orange', 'pear', 'strawberry', 'banana']
+print(myfruitslist[?])
+```
+Click on the green arrow to run the code. Did it print the item you were expecting?
 
 
 Make list of fruits. This is a list of text items because of the quotes, which can be single or double
