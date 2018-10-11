@@ -101,11 +101,11 @@ If you run the code it will show the numbers in the list. What do you notice abo
 
 `numberlist = range(2,11)`
 
-Here we have put two numbers, separated by a comma, in brackets after range, with the first number *smaller* than the second. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this version of the range function. 
+Here we have put two numbers, separated by a comma, in brackets after range, with the first number *smaller* than the second. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this version of the range function. How would you use range to produce a list of numbers from 4 to 15? Try it and see if it works! What happens if the first number is not smaller than the second?
  
 ### range function - third method:
 
 `numberlist = range(4,21,3)`
 
-Here we have put three numbers in brackets after range, separated by commas. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this command. 
+Here we have put **three** numbers, separated by commas, in brackets after range. Use the same `print(list(numberlist))` instruction to see which numbers go into the number list with this command. 
  
