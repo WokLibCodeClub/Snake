@@ -67,15 +67,15 @@ Challenge
 
 Use what you know about lists, loops, print combining text and numbers and calculations to write a programme which will print out a 3 times table which might look like this:
 
-1 times 3 is 3
-2 times 3 is 6
-3 times 3 is 9
-4 times 3 is 12
-5 times 3 is 15
-6 times 3 is 18
-7 times 3 is 21
-8 times 3 is 24
-9 times 3 is 27
+1 times 3 is 3  
+2 times 3 is 6  
+3 times 3 is 9  
+4 times 3 is 12  
+5 times 3 is 15  
+6 times 3 is 18  
+7 times 3 is 21  
+8 times 3 is 24  
+9 times 3 is 27  
 10 times 3 is 30
 
 range function
