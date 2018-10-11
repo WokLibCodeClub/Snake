@@ -27,6 +27,23 @@ print(myfruitslist[?])
 ```
 Click on the green arrow to run the code. Did it print the item you were expecting?
 
+When using Python lists it's important to remember that the first item in the list is item 0, and the next item item 1 etc. Change your code, if necessary, to make sure Python prints out the word pear.
+
+Loops
+-----
+
+If you've done coding with Scratch you may know about the Repeat block, which is used when you want to repeat a bit of code a fixed number of  times.
+![alt text](ScratchRepeat.png "Scratch Repeat block")
+In Python, the way to repeat some code, when you know exactly how many times you want to repeat it, is with a `for` loop. A `for` loop uses a *variable* as an index, and a *List* to control how many times the loop repeats.
+
+Here is a typical Python `for` loop:
+```
+for n in [1,2,3,4,5]:
+    print(n)
+```
+
+In this example `n` is the index variable, and `[1,2,3,4,5]` is the list which controls the repetition. Notice also that there is a colon at the end of the line which begins with `for` and that all the lines which you want to be repeated are *INDENTED*. Here's how it works:
+
 
 Make list of fruits. This is a list of text items because of the quotes, which can be single or double
 
