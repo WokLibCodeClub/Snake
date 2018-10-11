@@ -68,7 +68,9 @@ Challenge
 Use what you know about lists, loops, print combining text and numbers and calculations to write a programme which will print out a 3 times table which might look like this:
 
 1 times 3 is 3
+
 2 times 3 is 6
+
 3 times 3 is 9
 4 times 3 is 12
 5 times 3 is 15
