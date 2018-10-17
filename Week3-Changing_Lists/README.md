@@ -9,7 +9,7 @@ for n in [1,2,3,4,5]:
     print(n)
 ```
 
-where the list is typed out, we can now use a range function in place of the list and write:
+where each item in the list is typed out individually, we can now use a range function in place of the list and write:
 ```
 for n in range(1,6):
     print(n)
@@ -18,7 +18,7 @@ for n in range(1,6):
 Challenge
 =========
 
-Start a new Python file, with filetype .py, and Write code to produce this output:
+Start a new Python file, with filetype .py, and write code to produce this output:
 
 10  
 9  
@@ -38,11 +38,11 @@ One easy way to do this would be to type a list which had all these items in it,
 Changing Lists
 --------------
 
-In the Snake project all the letters follow letter S. To make this happen we have to remember where the letter S has been, and we do this by keeping a *list* of all the previous positions. So we have to be able to **change** the list. This section is about different ways we can change a list we've already made.
+In the Snake project all the letters in the word 'Snake' follow the same path as the letter S. To make this happen we have to remember where the letter S has been, and we do this by keeping a *list* of all the previous positions. So we have to be able to **change** the list as the letter S moves about. This section is about different ways we can change a list we've already made.
 
 ### Adding an item to the end of a list
 
-Here is the code to make a list of text items and put the list in a variable called myfruitslist. The second line of code prints out the list so we can check the contents:
+Here is the code from last week to make a list of text items and put the list in a variable called myfruitslist. The second line of code prints out the list so we can check the contents:
 ```
 myfruitslist = ['apple', 'orange', 'pear', 'strawberry', 'banana']
 print(myfruitslist)
@@ -69,7 +69,7 @@ print(myfruitslist)
 Counting the items in a lists
 -----------------------------
 
-If we've written code to add items into a list and delete some items from the list we sometimes need to check how many items there are in the list at the moment. We can do this with this code, which makes a numerical variable called `numitems` and sets it equal to the number of items in the list:
+If we've written code to add items into a list and delete some items from the list we sometimes need to check how many items there are in the list at the moment. This is called the *length* of the list, which is shortened in Python to *len*. We can do this with this code, which makes a numerical variable called `numitems` and sets it equal to the number of items in the list:
 ```
 numitems = len(myfruitslist)
 print(numitems)
