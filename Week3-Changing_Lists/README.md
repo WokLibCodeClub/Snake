@@ -18,7 +18,7 @@ for n in range(1,6):
 Challenge
 =========
 
-Write code with a `for` loop, and use `range()` with three numbers in the brackets to produce this output:
+Start a new Python file, with filetype .py, and Write code to produce this output:
 
 10  
 9  
@@ -32,6 +32,8 @@ Write code with a `for` loop, and use `range()` with three numbers in the bracke
 1  
 0  
 Lift off!
+
+One easy way to do this would be to type a list which had all these items in it, then use a `for` loop to print each item in the list. A smarter, more Python-y, way is to use the `range` function to generate the numbers and use this in the `for` loop. If you do it this way you will need to use `range` to produce a list where the numbers get smaller, not bigger. This sounds like `range()` with three numbers in the brackets... Can you figure it out?
 
 Changing Lists
 --------------
