@@ -38,7 +38,7 @@ One easy way to do this would be to type a list which had all these items in it,
 Changing Lists
 --------------
 
-In the Snake project all the letters in the word 'Snake' follow the same path as the letter S. To make this happen we have to remember where the letter S has been, and we do this by keeping a *list* of all the previous positions. So we have to be able to **change** the list as the letter S moves about. This section is about different ways we can change a list we've already made.
+In the Snake project all the letters in the word 'Snake' follow the same path as the letter S. To make this happen we have to remember where the letter S has been, and we do this by keeping a record of all the previous positions in a *list* . So we have to be able to **change** the list as the letter S moves about. This section is about different ways we can change a list we've already made.
 
 ### Changing an item in a list
 
