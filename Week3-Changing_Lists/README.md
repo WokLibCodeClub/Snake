@@ -94,7 +94,7 @@ print()
 Asking the user to type some input
 ----------------------------------
 
-Python has a simple way of asking the user of a programme for some input - the function is called `input`, which is not surprising. This code asks the user to type her or his name, and puts the name into a variable called `a`. The second line of code is a more complicated print function which prints out some text, followed by variable `a`.
+Python has a simple way of asking the user of a programme for some input - the function is called `input`, which is not surprising. The code below asks the user to type her or his name, and puts the name into a variable called `a`. The second line of code is a more complicated print function which prints out some text, followed by variable `a`.
 ```
 a = input('Type name: ')
 print('My name is ' + a)
