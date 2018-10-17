@@ -111,7 +111,7 @@ a = input('Give me a number: ')
 print(a*2)
 print()
 ```
-If I ran this code and typed the number 23 Python would print `2323`, which is definitely *not* double 23. The reason for this is that when you use an `input` function to get input from the user, the input **IS ALWAYS TEXT**, even if what you type in is a number. In Python you can multiply a bit of text by any number - it simply repeats the text that number of times.
+If I ran this code and typed the number 23 Python would print `2323`, which is definitely *not* double 23. The reason for this is that when you use an `input` function to get input from the user, the input is **ALWAYS TEXT**, even if what you type in is a number. In Python you can multiply a bit of text by any number - it simply repeats the text that number of times.
 
 When we tried to combine text and numbers in a `print` function (see Week 1, step 3) we had to convert the number into text, otherwise `print` would give an error. Now, we have exactly the opposite problem - we need to convert text from the `input` function into a number so that Python can do calculations with it. If we are interested in doing sums with whole numbers, or *integers*, the Python code to turn a text variable `a` into an integer is `int(a)`.
 
