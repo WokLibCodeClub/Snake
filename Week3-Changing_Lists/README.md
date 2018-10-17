@@ -84,8 +84,6 @@ print('My name is ' + a)
 ```
 In an `input` statement the part inside the brackets is called the *prompt*. This is the bit that Python types on the screen to ask the user for input. Notice there is a blank space as the last character of this prompt. This is not essential, but it means when the user types something it will be separated from the prompt text by a space, which looks a bit neater. In the `print` statement there is another space at the end of the `'My name is '` text. This is so that there will be a gap between this text and the value of variable `a`.
 
-
-
-
-
+More about user input
+---------------------
 

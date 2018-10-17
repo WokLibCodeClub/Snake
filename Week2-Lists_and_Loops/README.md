@@ -111,3 +111,5 @@ Here we have put **three** numbers, separated by commas, in brackets after `rang
 If you've done all this you've probably worked out that the first number in brackets is the starting number for the list and the last number is the size of the interval between the numbers in the list. The second number sets how long the list is, but it's more complicated than simply the last number in the list. The way Python uses the second number is to stop the list before the next number in the list would be the same as or beyond the second number. It's quite difficult to explain simply, the best thing is to experiment until you get the hang of it.
 
 In the third method of the `range` function the third number can be negative - to give a list where the numbers get smaller.
+
+[Go to Week 3 - Changing Lists](../Week3-Changing_Lists)
