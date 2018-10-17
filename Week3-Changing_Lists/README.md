@@ -57,7 +57,7 @@ print(myfruitslist)
 print()
 ```
 When you run this code you will see that the list is now:
-'['apple', 'orange', 'melon', 'strawberry', 'banana']`
+`['apple', 'orange', 'melon', 'strawberry', 'banana']`
 
 ### Adding an item to the end of a list
 
