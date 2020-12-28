@@ -1,3 +1,5 @@
+# Make folders and files
+
 The first part of the project is to create a window which displays the letter S and allows it to be moved with the arrow keys. This is exactly what was coded in the early stages of the LetterA project.
 
 Make a new folder for this project called Snake. If you are using a memory stick for Python coding then make the new folder on your memory stick.
