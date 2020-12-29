@@ -10,4 +10,4 @@ The programme runs with Pygame Zero, like the LetterA project, but in order to u
 
 Along the way there will be challenges. You may be able to find possible solutions to these challenges by looking at code from the following step, but you'll learn much more about Python coding if you try to solve the challenges yourself first.
 
-[Go to Week1](Week1-Debugging/Step1-display_letter_S/README.md)
+[Go to Week1](Week1-Debugging/WEEK1.md)
