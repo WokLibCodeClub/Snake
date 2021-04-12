@@ -1,5 +1,7 @@
 # Word Snake for Pygame Zero
 
+The instructions for this project are not quite finished yet. We'll try and complete them as soon as we can!
+
 This project creates a display where letters follow one another around a window. It is a development from the project called [LetterA](../../../LetterA), and if you haven't done the LetterA project you might think about doing that before continuing with this Snake project.
 
 ![Snake GIF](snake.gif)
